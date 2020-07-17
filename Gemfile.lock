@@ -1,0 +1,45 @@
+PATH
+  remote: .
+  specs:
+    amazon-textract-parser-ruby (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (6.0.3.2)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 0.7, < 2)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+      zeitwerk (~> 2.2, >= 2.2.2)
+    ansi (1.5.0)
+    builder (3.2.4)
+    concurrent-ruby (1.1.6)
+    i18n (1.8.3)
+      concurrent-ruby (~> 1.0)
+    minitest (5.14.1)
+    minitest-reporters (1.4.2)
+      ansi
+      builder
+      minitest (>= 5.0)
+      ruby-progressbar
+    rake (10.5.0)
+    ruby-progressbar (1.10.1)
+    thread_safe (0.3.6)
+    tzinfo (1.2.7)
+      thread_safe (~> 0.1)
+    zeitwerk (2.4.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  activesupport (~> 6.0.3.2)
+  amazon-textract-parser-ruby!
+  bundler (~> 1.17)
+  minitest (~> 5.0)
+  minitest-reporters
+  rake (~> 10.0)
+
+BUNDLED WITH
+   1.17.2
