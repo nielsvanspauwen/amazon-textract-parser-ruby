@@ -27,5 +27,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake", "~> 12.3.3"
   spec.add_development_dependency "minitest", "~> 5.0"
   spec.add_development_dependency "minitest-reporters"
-  spec.add_development_dependency "activesupport", "~> 6.0.3.2"
+  spec.add_development_dependency "activesupport", "~> 7.0.4.3"
 end
